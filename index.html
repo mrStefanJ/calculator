@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator app</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body class="theme-one set-one pack">
+  <main>
+    <div class="container">
+      <div class="top-element">
+        <div class="name">
+          <h1 class="theme-one set-one pack">calc</h1>
+        </div>
+        <div class="theme">
+          <div class="theme-text">
+            <p class="theme-one set-one pack">Theme</p>
+          </div>
+          <div class="toggle">
+            <div class="theme-numbers theme-one set-one pack">
+              <smal class="active nums" id="active one">1</smal>
+              <smal class="nums" id="two">2</smal>
+              <smal class="nums" id="three">3</smal>
+            </div>
+            <div class="bar">
+              <div class="piep theme-one set-one pack" id="pipe">
+                <span class="ball one"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="result">
+        <div class="output">
+          <div data-previous-operand class="previous-operand"></div>
+          <div data-current-operand class="current-operand"></div>
+        </div>
+        <div class="element-grid">
+          <button data-number class="grid-item">7</button>
+          <button data-number class="grid-item">8</button>
+          <button data-number class="grid-item">9</button>
+          <button data-delete class="grid-item clear">del</button>
+          <button data-number class="grid-item">4</button>
+          <button data-number class="grid-item">5</button>
+          <button data-number class="grid-item">6</button>
+          <button data-operation class="grid-item">+</button>
+          <button data-number class="grid-item">1</button>
+          <button data-number class="grid-item">2</button>
+          <button data-number class="grid-item">3</button>
+          <button data-operation class="grid-item">-</button>
+          <button data-number class="grid-item">.</button>
+          <button data-number class="grid-item">0</button>
+          <button data-operation class="grid-item">/</button>
+          <button data-operation class="grid-item">x</button>
+          <button data-clear-all class="grid-item span-two clear">reset</button>
+          <button data-equals class="grid-item equl span-two">=</button>
+        </div>
+      </div>
+
+      <!-- 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Stefan Joncic</a>.
+  </div>
+   -->
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
